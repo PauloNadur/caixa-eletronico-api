@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "01205221-8118-46f6-91f6-5d2942fd333f",
+		"name": "CAIXA ELETRÔNICO API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "EFETUAR SAQUE",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"valorSolicitado\": \"10\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/caixa-eletronico/saque",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"caixa-eletronico",
+						"saque"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
